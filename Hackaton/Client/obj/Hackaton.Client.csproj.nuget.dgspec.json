@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Client\\Hackaton.Client.csproj": {}
+    "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Client\\Hackaton.Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Client\\Hackaton.Client.csproj": {
+    "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Client\\Hackaton.Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Client\\Hackaton.Client.csproj",
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Client\\Hackaton.Client.csproj",
         "projectName": "Hackaton.Client",
-        "projectPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Client\\Hackaton.Client.csproj",
+        "projectPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Client\\Hackaton.Client.csproj",
         "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Client\\obj\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Client\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj": {
-                "projectPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj"
+              "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj": {
+                "projectPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj"
               }
             }
           }
@@ -88,14 +88,14 @@
         }
       }
     },
-    "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj": {
+    "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj",
         "projectName": "Hackaton.Shared",
-        "projectPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj",
+        "projectPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj",
         "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\obj\\",
+        "outputPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",

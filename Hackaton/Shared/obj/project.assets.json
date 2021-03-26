@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj",
+      "projectUniqueName": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj",
       "projectName": "Hackaton.Shared",
-      "projectPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\Hackaton.Shared.csproj",
+      "projectPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\Hackaton.Shared.csproj",
       "packagesPath": "C:\\Users\\atana\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\atana\\Desktop\\Hackathon\\Hackaton\\Shared\\obj\\",
+      "outputPath": "C:\\Users\\atana\\Desktop\\Kek\\Hackaton\\Shared\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\atana\\AppData\\Roaming\\NuGet\\NuGet.Config",
