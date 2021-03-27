@@ -1,0 +1,24 @@
+﻿@page "/account/accessdenied"
+@model Daniel.Server.Areas.Identity.Pages.Account.AccessDeniedModel
+
+
+<div class="auth-form-light text-left p-5">
+    <div class="brand-logo">
+        <a href="/">
+            <img src="/img/logo.svg">
+        </a>
+    </div>
+    <h4>Нямаш достъп!</h4>
+    <h6 class="font-weight-light">Твоят акаунт чака одобрение от главния администратор.</h6>
+
+    <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Page("/account/login", new { area = "Identity" })" method="post">
+        <button type="submit" class="btn btn-block btn-gradient-primary btn-lg font-weight-medium auth-form-btn">
+            Изход
+        </button>
+    </form>
+</div>
+
+
+
+@{
+}

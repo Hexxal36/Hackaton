@@ -1,0 +1,44 @@
+﻿@{
+    ViewData["Title"] = "Dashboard";
+}
+
+@model DashboardVM
+
+<div class="row">
+    <div class="col-12 grid-margin">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Последни логове</h4>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th> № на Устройство </th>
+                                <th> Разтворен кислород </th>
+                                <th> ОРП </th>
+                                <th> Ph </th>
+                                <th> Налягане </th>
+                                <th> Дата на създаване </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var info in Model.Information)
+                            {
+                                <tr>
+                                    <td>@info.DeviceId</td>
+                                    <td>@info.DissolvedOxygen</td>
+                                    <td>@info.ORP</td>
+                                    <td>@info.PH</td>
+                                    <td>@info.WaterPressure</td>
+                                    <td>@info.CreatedAt.ToString("dd/mm/yy HH:MM")</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@{
+}

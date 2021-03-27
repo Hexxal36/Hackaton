@@ -1,0 +1,37 @@
+﻿@using Microsoft.AspNetCore.Hosting
+@using Microsoft.AspNetCore.Mvc.ViewEngines
+@inject IWebHostEnvironment Environment
+@inject ICompositeViewEngine Engine
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="/vendors/mdi/css/materialdesignicons.min.css">
+    <link rel="stylesheet" href="/vendors/css/vendor.bundle.base.css">
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="/css/admin.css">
+    <!-- End layout styles -->
+
+    <link href="~/favicon.ico" rel="shortcut icon">
+    <title>@ViewData["Title"] - 24Data Admin</title>
+</head>
+<body>
+
+    <partial name="_Header" />
+    <div class="container-fluid page-body-wrapper">
+        <partial name="_Nav" />
+        <div class="main-panel">
+            <div class="content-wrapper">
+                @RenderBody()
+            </div>
+        </div>
+    </div>
+
+
+    <script src="~/Identity/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/Identity/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/Identity/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
