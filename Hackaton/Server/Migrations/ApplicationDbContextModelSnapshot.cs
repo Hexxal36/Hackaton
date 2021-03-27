@@ -26,11 +26,11 @@ namespace Hackaton.Server.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<float>("Latitude")
-                        .HasColumnType("real");
+                    b.Property<double>("Latitude")
+                        .HasColumnType("float");
 
-                    b.Property<float>("Longtitude")
-                        .HasColumnType("real");
+                    b.Property<double>("Longtitude")
+                        .HasColumnType("float");
 
                     b.HasKey("Id");
 
@@ -50,10 +50,17 @@ namespace Hackaton.Server.Migrations
                     b.Property<int>("DeviceId")
                         .HasColumnType("int");
 
-                    b.Property<int>("WaterPressure")
-                        .HasColumnType("int");
+                    b.Property<string>("DissolvedOxygen")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<int>("WaterQuality")
+                    b.Property<double>("ORP")
+                        .HasColumnType("float");
+
+                    b.Property<double>("PH")
+                        .HasColumnType("float");
+
+                    b.Property<int>("WaterPressure")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
@@ -65,13 +72,11 @@ namespace Hackaton.Server.Migrations
 
             modelBuilder.Entity("Hackaton.Shared.Models.Information", b =>
                 {
-                    b.HasOne("Hackaton.Shared.Models.Device", "Device")
+                    b.HasOne("Hackaton.Shared.Models.Device", null)
                         .WithMany("Info")
                         .HasForeignKey("DeviceId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("Device");
                 });
 
             modelBuilder.Entity("Hackaton.Shared.Models.Device", b =>

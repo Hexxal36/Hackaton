@@ -14,9 +14,9 @@ namespace Hackaton.Shared.Models
         }
         public int Id { get; set; }
         [Required]
-        public float Latitude { get; set; }
+        public double Latitude { get; set; }
         [Required]
-        public float Longtitude { get; set; }
+        public double Longtitude { get; set; }
         public virtual IEnumerable<Information> Info { get; set; }
     }
 }
