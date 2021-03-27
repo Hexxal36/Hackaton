@@ -9,21 +9,19 @@ using System.Threading.Tasks;
 
 namespace Hackaton.Server.Areas.Admin.Controllers
 {
-    public class InformationController : BaseAdminController
+    public class DeviceController : BaseAdminController
     {
         private ApplicationDbContext _context { get; set; }
 
-        public InformationController(ApplicationDbContext context)
+        public DeviceController(ApplicationDbContext context)
         {
             _context = context;
         }
 
         public IActionResult Index(int page = 1,
-            int deviceId = 0,
-            double minDisox = 0, double maxDisox = 0,
-            double minOrp = 0, double maxOrp = 0,
-            double minPh = 0, double maxPh = 0,
-            double minPressure = 0, double maxPressure = 0)
+            string name = "",
+            string location = "",
+            string desc = "")
         {
             var allInfo = _context.Information.ToList();
 

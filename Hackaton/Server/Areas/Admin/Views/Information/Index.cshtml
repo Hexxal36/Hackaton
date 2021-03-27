@@ -1,9 +1,23 @@
 ﻿@{
     ViewData["Title"] = "Messages - Admin";
+
+    var routeData = new Dictionary<string, string>()
+{
+        {"page", Model.Page.ToString()},
+        {"deviceId", Model.deviceId.ToString()},
+        {"minDisox", Model.minDisox.ToString()},
+        {"maxDisox", Model.maxDisox.ToString()},
+        {"minOrp", Model.minOrp.ToString()},
+        {"maxOrp", Model.maxOrp.ToString()},
+        {"minPh", Model.minPh.ToString()},
+        {"maxPh", Model.maxPh.ToString()},
+        {"minPressure", Model.minPressure.ToString()},
+        {"maxPressure", Model.maxPressure.ToString()},
+    };
 }
 
-@model InformationIndexVM
 
+@model InformationIndexVM
 <div class="card">
     <div class="card-body">
         <h4 class="card-title">Инфо лог</h4>
@@ -32,6 +46,73 @@
                 }
             </tbody>
         </table>
+    </div>
+
+    <div class="card-body">
+        @if (Model.Page != 1)
+        {
+            <a asp-controller="Information" asp-action="Index" asp-all-route-data="routeData" asp-route-page="1" class="btn btn-gradient-primary btn-rounded btn-fw">Първа страница</a>
+            <a asp-controller="Information" asp-action="Index" asp-all-route-data="routeData" asp-route-page="@(Model.Page-1)" class="btn btn-gradient-secondary btn-rounded btn-fw">Назад</a>
+        }
+
+        @if (Model.Page != Model.LastPage)
+        {
+            <a asp-controller="Information" asp-action="Index" asp-all-route-data="routeData" asp-route-page="@(Model.Page+1)" type="button" class="btn btn-gradient-secondary btn-rounded btn-fw">Напред</a>
+            <a asp-controller="Information" asp-action="Index" asp-all-route-data="routeData" asp-route-page="@Model.LastPage" class="btn btn-gradient-primary btn-rounded btn-fw">Последна страница</a>
+        }
+    </div>
+</div>
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Филтрираща форма</h4>
+        <form method="get" action="/Admin/Information">
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">№ на устройство</label>
+                <select asp-for="deviceId" class="form-control col-sm-8">
+                    @foreach (var device in Model.Devices)
+                    {
+                        <option value="@device.Id">@device.Id</option>
+                    }
+                </select>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Разтворен кислород</label>
+                <div class="col-sm-4">
+                    <input asp-for="minDisox" class="form-control" placeholder="Минимален">
+                </div>
+                <div class="col-sm-4">
+                    <input asp-for="maxDisox" class="form-control" placeholder="Максимален">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">ОРП</label>
+                <div class="col-sm-4">
+                    <input asp-for="minOrp" class="form-control" placeholder="Минимален">
+                </div>
+                <div class="col-sm-4">
+                    <input asp-for="maxOrp" class="form-control" placeholder="Максимален">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Ph</label>
+                <div class="col-sm-4">
+                    <input asp-for="minPh" class="form-control" placeholder="Минимален">
+                </div>
+                <div class="col-sm-4">
+                    <input asp-for="maxPh" class="form-control" placeholder="Максимален">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-sm-4 col-form-label">Pressure</label>
+                <div class="col-sm-4">
+                    <input asp-for="minPressure" class="form-control" placeholder="Минимален">
+                </div>
+                <div class="col-sm-4">
+                    <input asp-for="maxPressure" class="form-control" placeholder="Максимален">
+                </div>
+            </div>
+            <button type="submit" class="btn btn-gradient-primary mr-2">Филтрирай</button>
+        </form>
     </div>
 </div>
 

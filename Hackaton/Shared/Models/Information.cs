@@ -17,13 +17,13 @@ namespace Hackaton.Shared.Models
         public double PH { get; set; }
 
         [Required]
-        public string DissolvedOxygen { get; set; }
+        public double DissolvedOxygen { get; set; }
 
         [Required]
         public double ORP { get; set; }
 
         [Required]
-        public int WaterPressure { get; set; }
+        public double WaterPressure { get; set; }
 
         public DateTime CreatedAt { get; set; }
         [Required]

@@ -198,13 +198,13 @@
       "mscorlib.dll": "sha256-pfURHvguun0aGHBikgqj1tcIC9yVwDja+omBjH9K0WU=",
       "netstandard.dll": "sha256-zDt6ZaAbtKh1rxzQ7CMtlli234CuRfzZU6Fe9cc2FG4=",
       "System.Private.CoreLib.dll": "sha256-KRDEW\/5qbC0\/9M5IbDGIAM1sKCutWHyq9oLl8WW0c3I=",
-      "Hackaton.Shared.dll": "sha256-JUs\/RkJ4jLLfsJJHzEU88v5hzQfEoOKIh4RzDPlyyHg=",
-      "Hackaton.Client.dll": "sha256-+ZxxTRI2Jlt3rHiC3gDiY6nigXYPebVpn+smAiaP614="
+      "Hackaton.Shared.dll": "sha256-QBfgz4xvClpNl481H9dmjbxxLLQpTuWTwyijxxVosOo=",
+      "Hackaton.Client.dll": "sha256-AeztLHjOHdSfrtVCrDJGdXQIRn8YT\/Q3hrmHPv5Cw8s="
     },
     "lazyAssembly": null,
     "pdb": {
-      "Hackaton.Shared.pdb": "sha256-m+b4yp1rmKm34935ECrHZYluE7OIOnk9bjT1bQ41e7g=",
-      "Hackaton.Client.pdb": "sha256-O0k9KUKothUrCOdN2jeksD6DemeEVsnm4zCNz8JjtuA="
+      "Hackaton.Shared.pdb": "sha256-CQoKMytzfqruIhrIu2PXyJI+Hb4hcClMW\/k\/XridTdA=",
+      "Hackaton.Client.pdb": "sha256-mqHrBtgcCwREiK+NQnxi5MXyhedVM7SqAau4STsHh24="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-\/mwFhTTF4Kca8PG7G6rxaGqCueWH9XbWEIK1Fm8GbFg=",

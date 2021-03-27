@@ -126,9 +126,10 @@ C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Pages\Sh
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Pages\Shared\_Nav.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Areas\Admin\Views\Dashboard\Index.cshtml.g.cs
-C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Areas\Admin\Views\Message\Index.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewImports.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Areas\Admin\Views\_ViewStart.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Server\obj\Debug\net5.0\Razor\Areas\Admin\Views\Information\Index.cshtml.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Server\bin\Debug\net5.0\Bogus.dll

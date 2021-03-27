@@ -15,6 +15,15 @@
           "lib/netstandard2.0/AutoMapper.dll": {}
         }
       },
+      "Bogus/33.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Bogus.dll": {}
+        }
+      },
       "Humanizer.Core/2.8.26": {
         "type": "package",
         "compile": {
@@ -2005,6 +2014,23 @@
         "lib/net461/AutoMapper.xml",
         "lib/netstandard2.0/AutoMapper.dll",
         "lib/netstandard2.0/AutoMapper.xml"
+      ]
+    },
+    "Bogus/33.0.2": {
+      "sha512": "92CcSgl7KLEw7lerMytjY504IPnhmYqDkCgIPm5GVfiZPslRWUcgWvtoNYhKbSU4m/Ms7giKP8OxPAFTFBgC3w==",
+      "type": "package",
+      "path": "bogus/33.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bogus.33.0.2.nupkg.sha512",
+        "bogus.nuspec",
+        "lib/net40/Bogus.dll",
+        "lib/net40/Bogus.xml",
+        "lib/netstandard1.3/Bogus.dll",
+        "lib/netstandard1.3/Bogus.xml",
+        "lib/netstandard2.0/Bogus.dll",
+        "lib/netstandard2.0/Bogus.xml"
       ]
     },
     "Humanizer.Core/2.8.26": {
@@ -6767,6 +6793,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Bogus >= 33.0.2",
       "Hackaton.Client >= 1.0.0",
       "Hackaton.Shared >= 1.0.0",
       "Microsoft.AspNetCore.ApiAuthorization.IdentityServer >= 5.0.2",
@@ -6825,6 +6852,10 @@
       "net5.0": {
         "targetAlias": "net5.0",
         "dependencies": {
+          "Bogus": {
+            "target": "Package",
+            "version": "[33.0.2, )"
+          },
           "Microsoft.AspNetCore.ApiAuthorization.IdentityServer": {
             "target": "Package",
             "version": "[5.0.2, )"

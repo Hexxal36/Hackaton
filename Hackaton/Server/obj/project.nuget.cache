@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "snn0V8pEpi7vM5wvezPu2Ye/CyGtqJG5EvNNckxCrK97MefwvnM49X2E9ikRhS8zYzSeAl1Ozq3jZ30yEwWCvA==",
+  "dgSpecHash": "RL7ayV3Fh4ojMc9acuitDZohmyGDsZwaIN8WPR8kmIsN8k1VTWjniaRq45e8okEFX+2k6cTMr1696wZzhsgOqg==",
   "success": true,
   "projectFilePath": "C:\\Users\\1\\source\\repos\\Hackaton\\Hackaton\\Server\\Hackaton.Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\1\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\1\\.nuget\\packages\\bogus\\33.0.2\\bogus.33.0.2.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\identitymodel\\4.4.0\\identitymodel.4.4.0.nupkg.sha512",
     "C:\\Users\\1\\.nuget\\packages\\identityserver4\\4.1.0\\identityserver4.4.1.0.nupkg.sha512",

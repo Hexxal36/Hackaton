@@ -9,3 +9,4 @@ C:\Users\1\source\repos\Hackaton\Hackaton\Shared\obj\Debug\net5.0\Hackaton.Share
 C:\Users\1\source\repos\Hackaton\Hackaton\Shared\obj\Debug\net5.0\Hackaton.Shared.dll
 C:\Users\1\source\repos\Hackaton\Hackaton\Shared\obj\Debug\net5.0\ref\Hackaton.Shared.dll
 C:\Users\1\source\repos\Hackaton\Hackaton\Shared\obj\Debug\net5.0\Hackaton.Shared.pdb
+C:\Users\1\source\repos\Hackaton\Hackaton\Shared\obj\Debug\net5.0\Hackaton.Shared.csprojAssemblyReference.cache
