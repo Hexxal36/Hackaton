@@ -28,10 +28,10 @@ namespace Hackaton.Server.Areas.Admin.Controllers
             var allInfo = _context.Information.ToList();
 
             allInfo = Filter(allInfo, deviceId, minDisox, maxDisox, minOrp, maxOrp, minPh, maxPh, minPressure, maxPressure);
-            allInfo.OrderByDescending(x => x.CreatedAt);
 
             var lastPage = (int)Math.Ceiling((double)allInfo.Count() / 20);
 
+            allInfo = allInfo.OrderByDescending(x => x.CreatedAt).ToList();
 
             allInfo = Paginate(allInfo, page);
 
