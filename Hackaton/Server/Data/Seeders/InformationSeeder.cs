@@ -19,7 +19,7 @@ namespace Hackaton.Server.Data.Seeders
             var info = new List<Information>();
 
             var fakerStartDate = new DateTime(2021, 1, 1);
-            var fakerEndDate = new DateTime(2021, 3, 30);
+            var fakerEndDate = new DateTime(2021, 3, 27);
 
             var faker = new Faker<Information>()
                 .RuleFor(x => x.DeviceId, x => x.Random.Int(1, 20))
