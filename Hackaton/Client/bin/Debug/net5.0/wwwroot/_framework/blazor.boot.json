@@ -199,12 +199,12 @@
       "netstandard.dll": "sha256-zDt6ZaAbtKh1rxzQ7CMtlli234CuRfzZU6Fe9cc2FG4=",
       "System.Private.CoreLib.dll": "sha256-KRDEW\/5qbC0\/9M5IbDGIAM1sKCutWHyq9oLl8WW0c3I=",
       "Hackaton.Shared.dll": "sha256-QBfgz4xvClpNl481H9dmjbxxLLQpTuWTwyijxxVosOo=",
-      "Hackaton.Client.dll": "sha256-FoiLvpGSLWgBqXb\/pHjknER3Fpco5Vvr\/P8\/HYR0+\/g="
+      "Hackaton.Client.dll": "sha256-UgRUNT6RWQBIPrtwOY3gkVbCqn9RzS8EkSrL6xQL0f0="
     },
     "lazyAssembly": null,
     "pdb": {
       "Hackaton.Shared.pdb": "sha256-CQoKMytzfqruIhrIu2PXyJI+Hb4hcClMW\/k\/XridTdA=",
-      "Hackaton.Client.pdb": "sha256-oj11wVhhRMDjYsvuCg\/cRYsv6dUYPD8AAdUT+R0tBco="
+      "Hackaton.Client.pdb": "sha256-4hhOXWn5MGHPQV+hixau97TqMqC1rhoJjQjJKG6hQUg="
     },
     "runtime": {
       "dotnet.timezones.blat": "sha256-\/mwFhTTF4Kca8PG7G6rxaGqCueWH9XbWEIK1Fm8GbFg=",
