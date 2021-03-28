@@ -6,12 +6,21 @@
 
 <AuthorizeView>
     <Authorized>
-        <a href="authentication/profile">Hello, @context.User.Identity.Name!</a>
+        Hello, @context.User.Identity.Name!
         <button class="nav-link btn btn-link" @onclick="BeginSignOut">Log out</button>
     </Authorized>
     <NotAuthorized>
-        <a href="account/register">Register</a>
-        <a href="account/login">Log in</a>
+        <li>
+            <a class="nav-link scrollto active" href="/account/register">
+                Register
+            </a>
+        </li>
+        <li>
+
+            <a class="nav-link scrollto active" href="/account/register">
+                Login
+            </a>
+        </li>
     </NotAuthorized>
 </AuthorizeView>
 

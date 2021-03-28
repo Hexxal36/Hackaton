@@ -6,8 +6,6 @@ C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Clien
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Client.RazorComponent.input.cache
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\App.razor.g.cs
-C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication.razor.g.cs
-C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Counter.razor.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Index.razor.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Shared\LoginDisplay.razor.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Shared\RedirectToLogin.razor.g.cs
@@ -428,8 +426,6 @@ C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Clien
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Client.TagHelpers.output.cache
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Client.RazorCoreGenerate.cache
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\App.razor.g.cs
-C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Pages\Authentication.razor.g.cs
-C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Pages\Counter.razor.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Pages\Index.razor.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Shared\LoginDisplay.razor.g.cs
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Shared\RedirectToLogin.razor.g.cs
@@ -647,3 +643,15 @@ C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Clien
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Client.dll
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\ref\Hackaton.Client.dll
 C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Hackaton.Client.pdb
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Pages\About.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Footer.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Shared\Header.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Pages\About.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Shared\Footer.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Shared\Header.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Authentication.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Pages\Authentication.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Pages\Dashboard.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Pages\Dashboard.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\RazorDeclaration\Shared\EmptyLayout.razor.g.cs
+C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\Razor\Shared\EmptyLayout.razor.g.cs

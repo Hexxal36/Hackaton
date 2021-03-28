@@ -25,7 +25,6 @@ namespace Hackaton.Server.Areas.Admin.Controllers
         {
             var allInfo = _context.Information.ToList();
 
-            allInfo = Filter(allInfo, deviceId, minDisox, maxDisox, minOrp, maxOrp, minPh, maxPh, minPressure, maxPressure);
             allInfo.OrderByDescending(x => x.CreatedAt);
 
             var lastPage = (int)Math.Ceiling((double)allInfo.Count() / 20);
@@ -39,16 +38,6 @@ namespace Hackaton.Server.Areas.Admin.Controllers
                 Information = allInfo,
                 Page = page,
                 LastPage = lastPage,
-                Devices = _context.Devices.ToList(),
-                deviceId = deviceId,
-                maxDisox = maxDisox,
-                maxOrp = maxOrp,
-                maxPh = maxPh,
-                maxPressure = maxPressure,
-                minPh = minPh,
-                minDisox = minDisox,
-                minOrp = minOrp,
-                minPressure = minPressure
             };
             return View("Index", model);
         }

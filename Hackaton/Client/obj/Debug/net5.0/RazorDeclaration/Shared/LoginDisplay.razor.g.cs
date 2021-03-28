@@ -104,7 +104,7 @@ using Microsoft.AspNetCore.Components.WebAssembly.Authentication;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 18 "C:\Users\1\source\repos\Hackaton\Hackaton\Client\Shared\LoginDisplay.razor"
+#line 27 "C:\Users\1\source\repos\Hackaton\Hackaton\Client\Shared\LoginDisplay.razor"
       
     private async Task BeginSignOut(MouseEventArgs args)
     {
