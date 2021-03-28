@@ -1,5 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="C:\Users\1\source\repos\Hackaton\Hackaton\Client\bin\Debug\net5.0\wwwroot\" />
-  <ContentRoot BasePath="/" Path="C:\Users\1\source\repos\Hackaton\Hackaton\Client\obj\Debug\net5.0\scopedcss\bundle\" />
-  <ContentRoot BasePath="_content/Microsoft.AspNetCore.Components.WebAssembly.Authentication" Path="C:\Users\1\.nuget\packages\microsoft.aspnetcore.components.webassembly.authentication\5.0.2\build\..\staticwebassets\" />
-</StaticWebAssets>

@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackaton.Server", "Hackaton\Server\Hackaton.Server.csproj", "{3DD023FA-654A-4858-8CDF-3D388DF38B2D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackaton.Server", "Hackaton\Server\Hackaton.Server.csproj", "{3DD023FA-654A-4858-8CDF-3D388DF38B2D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackaton.Client", "Hackaton\Client\Hackaton.Client.csproj", "{0C801050-AAD2-4447-B852-834EF9E904DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackaton.Client", "Hackaton\Client\Hackaton.Client.csproj", "{0C801050-AAD2-4447-B852-834EF9E904DD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hackaton.Shared", "Hackaton\Shared\Hackaton.Shared.csproj", "{FE8620EB-CF21-4C57-ABCF-9099CFF2142F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hackaton.Shared", "Hackaton\Shared\Hackaton.Shared.csproj", "{FE8620EB-CF21-4C57-ABCF-9099CFF2142F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

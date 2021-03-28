@@ -1,0 +1,24 @@
+﻿@page "/dashboard"
+@inject IJSRuntime JSRuntime
+@layout EmptyLayout
+
+<div class='sidebar'>
+    <div class='heading'>
+        <h1>Information and statistics</h1>
+    </div>
+    <div id='listings' class='listings'></div>
+</div>
+<div id='map' class='map'> </div>
+
+@code {
+
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if (firstRender)
+        {
+            await JSRuntime.InvokeVoidAsync("jsFunctions.createMap");
+        }
+
+        await base.OnAfterRenderAsync(firstRender);
+    }
+}

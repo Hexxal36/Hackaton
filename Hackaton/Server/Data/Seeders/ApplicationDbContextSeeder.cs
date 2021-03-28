@@ -23,6 +23,8 @@ namespace Hackaton.Server.Data.Seeders
             {
                 new RoleSeeder(),
                 new AdminSeeder(),
+                new DeviceSeeder(),
+                new InformationSeeder()
             };
 
             foreach (var seeder in seeders)

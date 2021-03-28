@@ -9,29 +9,26 @@ using System.Threading.Tasks;
 
 namespace Hackaton.Server.Areas.Admin.Controllers
 {
-    public class InformationController : BaseAdminController
+    public class DeviceController : BaseAdminController
     {
         private ApplicationDbContext _context { get; set; }
 
-        public InformationController(ApplicationDbContext context)
+        public DeviceController(ApplicationDbContext context)
         {
             _context = context;
         }
 
         public IActionResult Index(int page = 1,
-            int deviceId = 0,
-            double minDisox = 0, double maxDisox = 0,
-            double minOrp = 0, double maxOrp = 0,
-            double minPh = 0, double maxPh = 0,
-            double minPressure = 0, double maxPressure = 0)
+            string name = "",
+            string location = "",
+            string desc = "")
         {
             var allInfo = _context.Information.ToList();
 
-            allInfo = Filter(allInfo, deviceId, minDisox, maxDisox, minOrp, maxOrp, minPh, maxPh, minPressure, maxPressure);
+            allInfo.OrderByDescending(x => x.CreatedAt);
 
             var lastPage = (int)Math.Ceiling((double)allInfo.Count() / 20);
 
-            allInfo = allInfo.OrderByDescending(x => x.CreatedAt).ToList();
 
             allInfo = Paginate(allInfo, page);
 
@@ -41,16 +38,6 @@ namespace Hackaton.Server.Areas.Admin.Controllers
                 Information = allInfo,
                 Page = page,
                 LastPage = lastPage,
-                Devices = _context.Devices.ToList(),
-                deviceId = deviceId,
-                maxDisox = maxDisox,
-                maxOrp = maxOrp,
-                maxPh = maxPh,
-                maxPressure = maxPressure,
-                minPh = minPh,
-                minDisox = minDisox,
-                minOrp = minOrp,
-                minPressure = minPressure
             };
             return View("Index", model);
         }

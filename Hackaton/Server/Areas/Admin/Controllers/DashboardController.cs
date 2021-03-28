@@ -19,7 +19,7 @@ namespace Hackaton.Server.Areas.Admin.Controllers
         {
             var model = new DashboardVM()
             {
-                Information = _context.Information.Where(x => !x.IsSeen).ToList(),
+                Information = _context.Information.Where(x => !x.IsSeen).Take(20).ToList(),
             };
 
             foreach (var info in _context.Information)
